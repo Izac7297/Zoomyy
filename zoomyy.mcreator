@@ -1,0 +1,105 @@
+{
+  "mod_elements": [
+    {
+      "name": "ZoomKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zoom_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zoomyy/network/ZoomKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ZoomKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zoom_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/zoomyy/procedures/ZoomKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ZoomKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zoom_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/zoomyy/procedures/ZoomKeyReleasedProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "key.zoomyy.zoom_key": "Zoom Key"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/zoomyy/init/ZoomyyModKeyMappingsServer.java",
+      "src/main/java/net/mcreator/zoomyy/init/ZoomyyModKeyMappings.java",
+      "src/main/java/net/mcreator/zoomyy/mixin/CommandsMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/zoomyy/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/zoomyy/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/zoomyy/mixin/BlockItemMixin.java",
+      "src/main/resources/zoomyy.mixins.json",
+      "src/main/java/net/mcreator/zoomyy/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/zoomyy/mixin/PlayerMixin.java",
+      "src/main/resources/META-INF/zoomyy.classtweaker",
+      "src/main/java/net/mcreator/zoomyy/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/zoomyy/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/zoomyy/event/BlockEvents.java",
+      "src/main/java/net/mcreator/zoomyy/ZoomyyMod.java",
+      "src/main/java/net/mcreator/zoomyy/event/MiscEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/zoomyy/ZoomyyModClient.java",
+      "src/main/java/net/mcreator/zoomyy/event/ItemEvents.java",
+      "src/main/java/net/mcreator/zoomyy/event/LivingEntityEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "zoomyy",
+    "modName": "Zoomyy",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.11",
+    "modElementsPackage": "net.mcreator.zoomyy"
+  },
+  "mcreatorVersion": 202600233518
+}
